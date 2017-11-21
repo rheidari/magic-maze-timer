@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <style type="text/css">
+      body {
+        font-family: 'Orbitron', sans-serif;
+        transition: ease all 1s;
+        background-color: white;
+        color: black;
+      }
+      body.warn {
+        background-color: #f0ad4e;
+        color: white;
+      }
+      body.danger {
+        background-color: #d9534f;
+        color: white;
+      }
+
+      #timer {
+        margin-top: 50px;
+        font-size: 30vw;
+        text-align: center;
+        transition: color;
+      }
+      .buttons {
+        display: flex;
+      }
+      button {
+        padding: 40px;
+        font-size: 5vw;
+        flex-grow: 1;
+        color: white;
+        border: 4px solid white;
+        border-radius: 4px;
+      }
+      button.start, button.flip {
+        background-color: #5cb85c;
+      }
+      button.reset {
+        margin-left: 3px;
+        background-color: grey;
+      }
+      button.flip {
+        margin-right: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timer">3:00</div>
+
+    <div class="buttons">
+      <button class="start" type="button">Start</button>
+      <button class="flip" style="display:none;" type="button">Time Flip</button>
+      <button class="reset" style="display:none;" type="button">Reset</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
