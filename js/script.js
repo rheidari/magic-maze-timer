@@ -88,9 +88,9 @@ var app = {
     this.els.reset = $('.reset');
     this.els.flip = $('.flip');
 
-    this.sounds.beep = new Audio('beep.mp3');
-    this.sounds.gameover = new Audio('gameover.wav');
-    this.sounds.start = new Audio('start.mp3');
+    this.sounds.beep = new Audio('audio/beep.mp3');
+    this.sounds.gameover = new Audio('audio/gameover.wav');
+    this.sounds.start = new Audio('audio/start.mp3');
 
     this.setupHandlers();
   },
