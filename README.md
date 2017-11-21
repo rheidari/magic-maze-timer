@@ -1,2 +1,4 @@
 # magic-maze-timer
-Timer for Magic Maze
+Super bare bones timer for magic maze.
+
+https://rheidari.github.io/magic-maze-timer/
